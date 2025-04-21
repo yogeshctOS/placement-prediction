@@ -1,0 +1,11 @@
+Flask
+Scikit-Learn
+Pandas
+Numpy
+matplotlib
+Seaborn
+reportlab
+pdfminer
+werkzeug
+pdfkit
+qrcode

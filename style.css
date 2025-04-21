@@ -1,0 +1,109 @@
+/* General Styles */
+body {
+    background: linear-gradient(to right, #40c9ff, #e6a8ff);
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Navigation Bar */
+.navbar {
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+}
+
+.nav-links a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.nav-links .active {
+    background-color: rgba(255, 255, 255, 0.3);
+    padding: 5px 15px;
+    border-radius: 10px;
+}
+
+/* Form Container */
+.container {
+    text-align: center;
+    margin-top: 30px;
+}
+
+.container h2 {
+    font-size: 24px;
+    font-weight: bold;
+    color: black;
+    margin: 20px 0;
+}
+
+/* Form Box */
+.form-container {
+    background: white;
+    padding: 30px;
+    max-width: 800px;
+    margin: auto;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+}
+
+/* Form Layout */
+.form-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 15px;
+    margin-bottom: 20px;
+}
+
+.form-group {
+    text-align: left;
+}
+
+.form-group input,
+.form-group select {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    background: #f1f1f1;
+}
+
+/* Radio Buttons */
+.radio-group {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.radio-group label {
+    font-size: 16px;
+    font-weight: bold;
+}
+
+/* Submit Button */
+button {
+    width: 100%;
+    padding: 12px;
+    font-size: 18px;
+    font-weight: bold;
+    border: none;
+    background: #18a558;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #128f4e;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .form-grid {
+        grid-template-columns: 1fr;
+    }
+}
